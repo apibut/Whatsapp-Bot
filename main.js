@@ -64,7 +64,7 @@ async function printLogs(msg){
 }
 
 event.on('message-new', async(chat) =>{
-    const owner = ["6282260888474@s.whatsapp.net","6281396061030@s.whatsapp.net", event.user.jid]
+    const owner = ["6281325714976@s.whatsapp.net","6281334361732@s.whatsapp.net", event.user.jid]
     const msg = wa.serialize(chat)
     const text = msg.text
     const cmd = text.toLowerCase()
